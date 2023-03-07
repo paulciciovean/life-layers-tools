@@ -12,6 +12,7 @@ function App() {
         <Route exact path="/" element={<Home />}/>
         <Route exact path="/login" element={<Login />}/>
         <Route exact path="/about" element={<About />}/>
+        <Route exact path="/myprofile" element={<div> My profile</div>}/>
       </Routes>
     </BrowserRouter>
   );
